@@ -1,0 +1,28 @@
+.currency-list {
+    margin: 20px;
+    width: 60%;
+}
+
+
+.list-row {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+   li {
+       border-bottom: 1px solid rgb(202, 202, 245);
+       padding: 10px;
+       width: 100%;
+       text-align: center;
+   }
+}
+
+.list-header-top {
+    font-weight: bold;
+    color: #ffd700
+}
+
+.list-header-top-light {
+    font-weight: bold;
+    color: #687ab9
+}

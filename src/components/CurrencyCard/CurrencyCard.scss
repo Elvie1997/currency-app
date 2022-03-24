@@ -1,0 +1,37 @@
+.positive {
+    color: rgb(80, 145, 80);
+}
+
+.negative {
+    color: rgb(185, 89, 89);
+}
+
+.charcode {
+    position: relative;
+    a {
+        text-decoration: none;
+    }
+}
+
+.tooltip {
+    position: fixed;
+    background-color: #ffd700;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.currency-row:hover {
+    background-color: rgb(35, 12, 41);
+    cursor: pointer;
+}
+
+.currency-row-light:hover {
+    background-color: #b2c7eb;
+    cursor: pointer;
+}
+
+
+
+

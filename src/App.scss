@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.light-text {
+    color: #fff;
+}
+
+.dark-text {
+    color: #091f33
+}
+
+
+.app {
+    background-color: #080706;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.app-light {
+    background-color: #f9f9f9;
+    color: #091f33;
+    overflow-x: hidden;
+}
+
+.currency-wrapper {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10px 0 50px;
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+}
+
+.copyright, .copyright a  {
+        color:#ffd700;
+    }
+
+.copyright-light, .copyright-light a {
+    color: #687ab9
+}
