@@ -6,6 +6,7 @@ import CurrencyStats from './pages/CurrencyStats'
 import moment from "moment";
 import Loader from './components/Loader/Loader';
 import Switch from './components/Switch/Switch';
+import Header from './components/Header/Header';
 
 
 
@@ -62,7 +63,8 @@ function App() {
         <>
         <Router>
           <div className={light ? 'app-light' : "app"}>
-            <Switch toggleTheme={toggleTheme} light={light} />
+            {/* <Switch toggleTheme={toggleTheme} light={light} /> */}
+            <Header toggleTheme={toggleTheme} light={light} />
             <div className='currency-wrapper'>
                 <Routes>
                   <Route path='/currency-app' element={<Main date={date} getIndividualCurr={getIndividualCurr} currenciesArr={currenciesArr} light={light} />} />

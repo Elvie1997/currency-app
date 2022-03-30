@@ -17,9 +17,10 @@ function TenDayStats({ light, statsObjs }) {
 
   return (
     <> 
-     
-          <h1>Динамика за последние 10 дней</h1>
-          <p>Валюта: {currency.Name} ({currency.CharCode}) </p>
+          <div className='title'>
+            <h1>Динамика за последние 10 дней</h1>
+            <p>Валюта: {currency.Name} ({currency.CharCode}) </p>
+          </div>
           <div className='stats-wrapper'>
               <ul className={`stats + ' ' + ${light ? 'stats-header-light' : 'stats-header'}`}>
                   <li>Дата</li>

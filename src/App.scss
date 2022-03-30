@@ -5,6 +5,12 @@
     font-family: 'El Messiri', sans-serif;
     font-size: 25px;
     letter-spacing: 2px;
+    @media screen and (max-width: 400px) {
+        & {
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+    }
 }
 
 .light-text {

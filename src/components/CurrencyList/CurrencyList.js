@@ -18,9 +18,10 @@ function ListHeader({ date, currenciesArr, getIndividualCurr, light }) {
 
 
   return (
-    <>
-        <h1>Курс валют</h1>
-        <p> на {date}</p>
+    <>  <div className='title'>
+          <h1>Курс валют</h1>
+          <p> на {date}</p>
+        </div>
         <div className='currency-list'>
           <ul className='list-row'>
               <li className={light ? 'list-header-top-light' : 'list-header-top'}>Код валюты</li>
